@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-top {
+    padding: 0px 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #0f172b;
+  }
+  .header-left {
+    display: flex;
+    flex-direction: row;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  h1 {
+    font-family: "Delius Unicase";
+    color: #fea116;
+    font-size: 40px;
+    text-align: center;
+  }
+  .list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .menu {
+    padding: 10px 20px;
+    color: white;
+  }
+  .menu:hover {
+    color: #fea116;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .main-img {
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+      url(image/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container2 {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-menu {
+    width: 600px;
+    padding: 20px;
+    padding-top: 100px;
+  }
+  .text {
+    font-size: 70px;
+    color: white;
+    text-align: start;
+    margin-bottom: 30px;
+  }
+  .text-main {
+    color: white;
+    text-align: justify;
+    margin-bottom: 60px;
+  }
+  .bottun {
+    text-decoration: none;
+    color: white;
+    background-color: #fea116;
+    padding: 20px 50px;
+  }
+  .bottun:hover {
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0, 5s;
+    background-color: #ffc107;
+  }
+  .picture {
+    width: 600px;
+    align-items: center;
+  }
+  .hero:hover {
+    transform: rotate(360deg);
+    transition: all 20s linear;
+    cursor: pointer;
+  }
+  .background {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+      url(image/bg-hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .center {
+    padding: 60px 87px;
+  }
+  .about {
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding: 30px;
+  }
+  li {
+    padding-right: 20px;
+    list-style-type: none;
+  }
+  .members {
+    margin: 0 auto;
+    padding: 80px;
+    width: 100%;
+  }
+  h2 {
+    color: #fea116;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    height: 360px;
+    margin: 12px 20px;
+  }
+  .column {
+    width: 258px;
+    padding: 12px;
+    box-shadow: 0 0 40px #b3bdc7;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .chef {
+    width: 220px;
+    border-radius: 50%;
+  }
+  .chef:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 1s 0s;
+  }
+  h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .servic {
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+  }
+  h5 {
+    display: block;
+    color: #0f172b;
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .column2 {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 40px #ced5db;
+  }
+  .column2:hover {
+    background-color: #ffc107;
+    color: white;
+    transition: all 2s 0s;
+  }
+  .text-servic {
+    font-size: 30px;
+    color: #0f172b;
+    padding: 20px 0px;
+  }
+  .img-menu {
+    width: 110px;
+    padding-top: 10px;
+  }
+  .items {
+    width: 80%;
+    margin: 0 auto;
+    width: 1140px;
+    height: 416px;
+  }
+  .Popular {
+    width: 300px;
+  }
+  .descript {
+    text-align: start;
+    padding: 20px;
+  }
+  footer {
+    background-color: #0f172b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
